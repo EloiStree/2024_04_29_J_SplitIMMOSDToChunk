@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.eloistree.splitimmosdtochunk",                              
+  "displayName": "Split iMMo Shield drone elements in Chunk",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "Split iMMo Shield drone elements in Chunk of bytes to send on the network.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2024_04_29_J_SplitIMMOSDToChunk.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 

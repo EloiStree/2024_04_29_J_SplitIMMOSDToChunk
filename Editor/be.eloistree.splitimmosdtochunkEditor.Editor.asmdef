@@ -1,0 +1,16 @@
+
+{                                                                   
+            "name": "be.eloistree.splitimmosdtochunkEditor",          
+    "references": ["be.eloistree.splitimmosdtochunk"
+],                                                              
+    "optionalUnityReferences": [],                                  
+    "includePlatforms": [                                           
+        "Editor"                                                    
+    ],                                                              
+    "excludePlatforms": [],                                         
+    "allowUnsafeCode": false,                                       
+    "overrideReferences": false,                                    
+    "precompiledReferences": [],                                    
+    "autoReferenced": true,                                         
+    "defineConstraints": []                                         
+}                                                                   

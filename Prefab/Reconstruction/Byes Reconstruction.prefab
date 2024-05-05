@@ -1,0 +1,1068 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2243609004674748124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8977608587747381537}
+  - component: {fileID: 9057653519156423142}
+  - component: {fileID: 1244551215396353900}
+  m_Layer: 0
+  m_Name: Byes Reconstruction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8977608587747381537
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2243609004674748124}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 272.55582, y: 107.88816, z: 151.33005}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3256988667646855590}
+  - {fileID: 6723132713573636722}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9057653519156423142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2243609004674748124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8d0a1e1c32486744913b38051ea5bfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_filterChunkByBytes: 9
+  m_chunkLastReceivedFiltered: 
+  m_chunkLastReceived: 
+  m_reconstruction:
+    m_collectionOfMergeByteArray:
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+    - m_arrayIdOfReconstruction: 0
+      m_fullArrayOfMergedChunkContent: 
+      m_lastFrameReceived: 0
+  m_lastChunkArrayId: 0
+  m_lastChunkId: 0
+  m_lastChunkFrame: 0
+--- !u!114 &1244551215396353900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2243609004674748124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d91781a6c2f2d748a3a596d5c9680ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_source: {fileID: 9057653519156423142}
+  m_redirection:
+  - m_reminder: Vector3 Array
+    m_arrayReconstructionId: 3
+    m_onFrameReceived:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: ReconstructionByteToNativeArrayMono`2[[UnityEngine.Vector3,
+            UnityEngine
+          m_MethodName: PushIn
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - m_reminder: Integer Array
+    m_arrayReconstructionId: 5
+    m_onFrameReceived:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5954643761430494007}
+          m_TargetAssemblyTypeName: ReconstructionByteToNativeArrayMono`2[[System.Int32,
+            mscorlib
+          m_MethodName: PushIn
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - m_reminder: Texture 128x128
+    m_arrayReconstructionId: 7
+    m_onFrameReceived:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: ReconstructionByteToNativeArrayMono`2[[UnityEngine.Color32,
+            UnityEngine
+          m_MethodName: PushIn
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - m_reminder: Texture 128x128 render
+    m_arrayReconstructionId: 9
+    m_onFrameReceived:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: ReconstructionByteToNativeArrayMono`2[[UnityEngine.Color32,
+            UnityEngine
+          m_MethodName: PushIn
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!1001 &3770193186386436812
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8977608587747381537}
+    m_Modifications:
+    - target: {fileID: 1828830152691886954, guid: 74331c9373ababc49bae49aed9dd66a3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1828830152691886954, guid: 74331c9373ababc49bae49aed9dd66a3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1828830152691886954, guid: 74331c9373ababc49bae49aed9dd66a3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1828830152691886954, guid: 74331c9373ababc49bae49aed9dd66a3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1828830152691886954, guid: 74331c9373ababc49bae49aed9dd66a3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1828830152691886954, guid: 74331c9373ababc49bae49aed9dd66a3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1828830152691886954, guid: 74331c9373ababc49bae49aed9dd66a3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1828830152691886954, guid: 74331c9373ababc49bae49aed9dd66a3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1828830152691886954, guid: 74331c9373ababc49bae49aed9dd66a3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1828830152691886954, guid: 74331c9373ababc49bae49aed9dd66a3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2260117449585450987, guid: 74331c9373ababc49bae49aed9dd66a3,
+        type: 3}
+      propertyPath: m_Name
+      value: Integer
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 74331c9373ababc49bae49aed9dd66a3, type: 3}
+--- !u!4 &3256988667646855590 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1828830152691886954, guid: 74331c9373ababc49bae49aed9dd66a3,
+    type: 3}
+  m_PrefabInstance: {fileID: 3770193186386436812}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5954643761430494007 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7417796140942629371, guid: 74331c9373ababc49bae49aed9dd66a3,
+    type: 3}
+  m_PrefabInstance: {fileID: 3770193186386436812}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b6057b02c64cb741b3e7794d987dbe5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &5120980409028517671
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8977608587747381537}
+    m_Modifications:
+    - target: {fileID: 773273081269150109, guid: 26549317badf6c340921952a01193ae2,
+        type: 3}
+      propertyPath: m_Name
+      value: Immo Shield Drone
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899460324046423381, guid: 26549317badf6c340921952a01193ae2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899460324046423381, guid: 26549317badf6c340921952a01193ae2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899460324046423381, guid: 26549317badf6c340921952a01193ae2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899460324046423381, guid: 26549317badf6c340921952a01193ae2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899460324046423381, guid: 26549317badf6c340921952a01193ae2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899460324046423381, guid: 26549317badf6c340921952a01193ae2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899460324046423381, guid: 26549317badf6c340921952a01193ae2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899460324046423381, guid: 26549317badf6c340921952a01193ae2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899460324046423381, guid: 26549317badf6c340921952a01193ae2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1899460324046423381, guid: 26549317badf6c340921952a01193ae2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 26549317badf6c340921952a01193ae2, type: 3}
+--- !u!4 &6723132713573636722 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1899460324046423381, guid: 26549317badf6c340921952a01193ae2,
+    type: 3}
+  m_PrefabInstance: {fileID: 5120980409028517671}
+  m_PrefabAsset: {fileID: 0}

@@ -1,0 +1,20 @@
+{
+    "name": "be.eloistree.splitimmosdtochunk",
+    "rootNamespace": "",
+    "references": [
+        "be.eloistree.immoshielddrone",
+        "be.eloistree.immogeneric16k",
+        "be.eloistree.splitnativebytethroughnetwork",
+        "be.eloistree.watchexecutetime",
+        "Unity.Burst"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

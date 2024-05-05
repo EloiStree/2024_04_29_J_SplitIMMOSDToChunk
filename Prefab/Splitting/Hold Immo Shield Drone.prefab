@@ -9,6 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2695857984185768444}
+  - component: {fileID: 2045450129102957478}
+  - component: {fileID: 6852121820958414999}
+  - component: {fileID: 717388703495447245}
   m_Layer: 0
   m_Name: Hold Immo Shield Drone
   m_TagString: Untagged
@@ -31,3 +34,121 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2045450129102957478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4372160971549173788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cac19b29495199438b0632e82f2872f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sample:
+    m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 0
+    m_position: {x: 0, y: 0, z: 0}
+    m_rotation: {x: 0, y: 0, z: 0, w: 0}
+  m_guid: 0a79b897-1fbc-470d-b96f-a61e98339e28
+--- !u!114 &6852121820958414999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4372160971549173788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a5fec1870f71074099c82c1e11f13db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_targetSNAM: {fileID: 2045450129102957478}
+  m_arrayToSet:
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 0
+    m_position: {x: 0, y: 0, z: 0}
+    m_rotation: {x: 0, y: 0, z: 0, w: 0}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 0
+    m_position: {x: 0, y: 0, z: 0}
+    m_rotation: {x: 0, y: 0, z: 0, w: 0}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 0
+    m_position: {x: 0, y: 0, z: 0}
+    m_rotation: {x: 0, y: 0, z: 0, w: 0}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 0
+    m_position: {x: 0, y: 0, z: 0}
+    m_rotation: {x: 0, y: 0, z: 0, w: 0}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 0
+    m_position: {x: 0, y: 0, z: 0}
+    m_rotation: {x: 0, y: 0, z: 0, w: 0}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 0
+    m_position: {x: 0, y: 0, z: 0}
+    m_rotation: {x: 0, y: 0, z: 0, w: 0}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 0
+    m_position: {x: 0, y: 0, z: 0}
+    m_rotation: {x: 0, y: 0, z: 0, w: 0}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 0
+    m_position: {x: 0, y: 0, z: 0}
+    m_rotation: {x: 0, y: 0, z: 0, w: 0}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 0
+    m_position: {x: 0, y: 0, z: 0}
+    m_rotation: {x: 0, y: 0, z: 0, w: 0}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 0
+    m_position: {x: 0, y: 0, z: 0}
+    m_rotation: {x: 0, y: 0, z: 0, w: 0}
+  m_useValidated: 1
+  m_randomizeInputAtUpdate: 1
+  m_numberOfRandomPerUpdate: 2
+--- !u!114 &717388703495447245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4372160971549173788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ba51b549b282c046a1888cf0b4ba3e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_source: {fileID: 0}
+  m_elementPerChunk: 512
+  m_arrayIdOfReconstruction: 5
+  m_holder:
+    m_currentFrameId: 0
+    m_elementByteSize: 0
+    m_chunkByteSize: 0
+    m_allChunkByteSize: 0
+    m_percentOfUdpFullPackage: 0
+    m_elementInChunk: 0
+    m_elementTotaleInCollection: 0
+    m_numberOfChunk: 0
+    m_fullByteArray: 
+    m_groupOfChunkArray: []
+  m_onPushAllChunkAsBytesRef:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onPushFullByteArrayRef:
+    m_PersistentCalls:
+      m_Calls: []

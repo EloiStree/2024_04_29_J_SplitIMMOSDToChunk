@@ -210,13 +210,47 @@ public struct STRUCT_JOB_ShieldDroneToSlices : IJobParallelFor
 }
 
 
+public struct StructRandomizerJob_ShieldDroneCoreInformation : I_ProvideRandomAndDefaultElementInJob<STRUCT_ShieldDroneCoreInformation>
+{
 
-    public struct StructParserJob_ShieldDroneCoreInformation : I_HowToParseElementInByteNativeArray<STRUCT_ShieldDroneCoreInformation>, I_HowToParseByteNativeArrayToElement<STRUCT_ShieldDroneCoreInformation>, I_ProvideRandomAndDefaultElementInJob<STRUCT_ShieldDroneCoreInformation>
+    public const float m_maxDistance = 262.143f;
+    public void GetDefault(out STRUCT_ShieldDroneCoreInformation element) =>
+        element = new STRUCT_ShieldDroneCoreInformation();
+
+    public void GetRandom(out STRUCT_ShieldDroneCoreInformation element)
     {
+        System.Random r = new System.Random();
+        element = new STRUCT_ShieldDroneCoreInformation();
+        element.m_ushortShield = (float)(r.NextDouble() * ushort.MaxValue);
+        element.m_isInCollision = r.NextDouble() > 0.5;
+        element.m_isDroneConnectedAndInGame = r.NextDouble() > 0.5;
+        element.m_position = new Vector3((float)r.NextDouble() * m_maxDistance, (float)r.NextDouble() * m_maxDistance, (float)r.NextDouble() * m_maxDistance);
+        element.m_rotation = Quaternion.Euler((float)r.NextDouble() * 360f, (float)r.NextDouble() * 360f, (float)r.NextDouble() * 360f);
+
+    }
+
+    public void SetWithDefault(NativeArray<STRUCT_ShieldDroneCoreInformation> source, in int indexElement)
+    {
+        GetDefault(out STRUCT_ShieldDroneCoreInformation v);
+        source[indexElement] = v;
+    }
+
+    public void SetWithRandom(NativeArray<STRUCT_ShieldDroneCoreInformation> source, in int indexElement)
+    {
+
+        GetRandom(out STRUCT_ShieldDroneCoreInformation v);
+        source[indexElement] = v;
+    }
+
+}
+
+public struct StructParserJob_ShieldDroneCoreInformation : I_HowToParseElementInByteNativeArray<STRUCT_ShieldDroneCoreInformation>, I_HowToParseByteNativeArrayToElement<STRUCT_ShieldDroneCoreInformation>, I_ProvideRandomAndDefaultElementInJob<STRUCT_ShieldDroneCoreInformation>
+{
         public static int m_elementSize = 11;
         public const float m_shieldMaxSize = ushort.MaxValue;
         public const float m_maxDistance = 262.143f;
         public const float m_minDistance = 0f;
+    public StructRandomizerJob_ShieldDroneCoreInformation m_randomizer;
 
         public STRUCT_ShieldDroneCoreInformation m_default;
 
@@ -307,34 +341,6 @@ public struct STRUCT_JOB_ShieldDroneToSlices : IJobParallelFor
 
 
 
-        public void GetDefault(out STRUCT_ShieldDroneCoreInformation element) =>
-            element = new STRUCT_ShieldDroneCoreInformation();
-
-        public void GetRandom(out STRUCT_ShieldDroneCoreInformation element)
-        {
-            System.Random r = new System.Random();
-            element = new STRUCT_ShieldDroneCoreInformation();
-            element.m_ushortShield = (float)(r.NextDouble() * ushort.MaxValue);
-            element.m_isInCollision = r.NextDouble() > 0.5;
-            element.m_isDroneConnectedAndInGame = r.NextDouble() > 0.5;
-            element.m_position = new Vector3((float)r.NextDouble() * m_maxDistance, (float)r.NextDouble() * m_maxDistance, (float)r.NextDouble() * m_maxDistance);
-            element.m_rotation = Quaternion.Euler((float)r.NextDouble() * 360f, (float)r.NextDouble() * 360f, (float)r.NextDouble() * 360f);
-
-        }
-
-        public void SetWithDefault(NativeArray<STRUCT_ShieldDroneCoreInformation> source, in int indexElement)
-        {
-            GetDefault(out STRUCT_ShieldDroneCoreInformation v);
-            source[indexElement] = v;
-        }
-
-        public void SetWithRandom(NativeArray<STRUCT_ShieldDroneCoreInformation> source, in int indexElement)
-        {
-
-            GetRandom(out STRUCT_ShieldDroneCoreInformation v);
-            source[indexElement] = v;
-        }
-
 
 
         private static void FloatToArray(float numberFloat, out byte b0, out byte b1, out byte b2)
@@ -349,6 +355,26 @@ public struct STRUCT_JOB_ShieldDroneToSlices : IJobParallelFor
             int value = (b0 << 16) | (b1 << 8) | (b2);
             numberFloat = Mathf.Clamp(value * 0.001f, 0f, m_maxDistance);
         }
-    
+
+    public void SetWithRandom(NativeArray<STRUCT_ShieldDroneCoreInformation> source, in int indexElement)
+    {
+        m_randomizer.SetWithRandom(source, in indexElement);
+    }
+
+    public void SetWithDefault(NativeArray<STRUCT_ShieldDroneCoreInformation> source, in int indexElement)
+    {
+        m_randomizer.SetWithRandom(source, in indexElement);
+    }
+
+    public void GetDefault(out STRUCT_ShieldDroneCoreInformation element)
+    {
+        m_randomizer.GetDefault(out element);
+    }
+
+    public void GetRandom(out STRUCT_ShieldDroneCoreInformation element)
+    {
+
+        m_randomizer.GetRandom(out element);
+    }
 }
 

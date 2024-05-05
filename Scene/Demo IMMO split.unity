@@ -483,6 +483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 614841449}
   - component: {fileID: 614841450}
+  - component: {fileID: 614841451}
   m_Layer: 0
   m_Name: SNA Collision
   m_TagString: Untagged
@@ -519,6 +520,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_sample: 0
   m_guid: 0ff71c62-9a78-4ea4-8913-bb67a99765c8
+--- !u!114 &614841451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614841448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e1ce1473ebaeb4c8e4d8ccaa31612f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_targetSNAM: {fileID: 614841450}
+  m_arrayFetched: 00000000000000000000
+  m_useUpdateFetch: 1
 --- !u!1 &877631659
 GameObject:
   m_ObjectHideFlags: 0
@@ -573,6 +589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 893274310}
   - component: {fileID: 893274311}
+  - component: {fileID: 893274312}
   m_Layer: 0
   m_Name: SNA Shield
   m_TagString: Untagged
@@ -609,6 +626,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_sample: 0
   m_guid: 8174c034-b054-4a91-b67a-8c2224a5b9e7
+--- !u!114 &893274312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893274309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 964b88621fdbaf445a0763086612d5eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_targetSNAM: {fileID: 893274311}
+  m_arrayFetched:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  m_useUpdateFetch: 1
 --- !u!1 &961739749
 GameObject:
   m_ObjectHideFlags: 0
@@ -756,6 +798,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1290608240}
   - component: {fileID: 1290608241}
+  - component: {fileID: 1290608242}
   m_Layer: 0
   m_Name: SNA Connected
   m_TagString: Untagged
@@ -792,6 +835,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_sample: 0
   m_guid: 45b10656-e5d0-4c04-975b-e4786a8e20eb
+--- !u!114 &1290608242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290608239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02e1ce1473ebaeb4c8e4d8ccaa31612f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_targetSNAM: {fileID: 1290608241}
+  m_arrayFetched: 00000000000000000000
+  m_useUpdateFetch: 1
 --- !u!1 &1300732617
 GameObject:
   m_ObjectHideFlags: 0
@@ -802,8 +860,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1300732618}
   - component: {fileID: 1300732619}
+  - component: {fileID: 1300732621}
+  - component: {fileID: 1300732620}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Shield Drone to SNAM16K
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -858,7 +918,7 @@ MonoBehaviour:
   m_droneCoreInformation: {fileID: 1590290548}
   m_sliceToDrone:
     m_watchTimeLabelDescription: Watch Time of ..
-    m_watchTimeInTick: 993
+    m_watchTimeInTick: 864
     m_watchTimeInMilliseconds: 0
     m_dateTimeInTick: 0
     m_dateTimeInMilliseconds: 0
@@ -868,7 +928,7 @@ MonoBehaviour:
     m_useNotification: 1
   m_droneToSlice:
     m_watchTimeLabelDescription: Watch Time of ..
-    m_watchTimeInTick: 495
+    m_watchTimeInTick: 5228
     m_watchTimeInMilliseconds: 0
     m_dateTimeInTick: 0
     m_dateTimeInMilliseconds: 0
@@ -876,8 +936,84 @@ MonoBehaviour:
     m_debugListCategory:
     - Default
     m_useNotification: 1
-  m_sizeOfBoolean: 4
-  m_sizeOfInteger: 4
+--- !u!114 &1300732620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300732617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10d16f1c61cde4b4a821375e4e925906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activeDrone: 16384
+  m_useDefault: 1
+  m_storeElement:
+    m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 0
+    m_position: {x: 0, y: 0, z: 0}
+    m_rotation: {x: 0, y: 0, z: 0, w: 0}
+  m_droneCoreInformation: {fileID: 1590290548}
+  m_isDroneConnected: {fileID: 1290608241}
+  m_isDroneInCollision: {fileID: 614841450}
+  m_droneShield: {fileID: 893274311}
+  m_dronePosition: {fileID: 1301909087}
+  m_droneRotation: {fileID: 1766862359}
+  m_droneToSlice:
+    m_watchTimeLabelDescription: Watch Time of ..
+    m_watchTimeInTick: 0
+    m_watchTimeInMilliseconds: 0
+    m_dateTimeInTick: 0
+    m_dateTimeInMilliseconds: 0
+    m_debugListOrderPriority: -1
+    m_debugListCategory:
+    - Default
+    m_useNotification: 1
+  m_onShieldDroneUseToUpdated:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1300732621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300732617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d70bdaed289c5254f87017bbb4abb39c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activeDrone: 16384
+  m_useDefault: 1
+  m_storeElement:
+    m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 0
+    m_position: {x: 0, y: 0, z: 0}
+    m_rotation: {x: 0, y: 0, z: 0, w: 0}
+  m_isDroneConnected: {fileID: 1290608241}
+  m_isDroneInCollision: {fileID: 614841450}
+  m_droneShield: {fileID: 893274311}
+  m_dronePosition: {fileID: 1301909087}
+  m_droneRotation: {fileID: 1766862359}
+  m_droneCoreInformation: {fileID: 1590290548}
+  m_sliceToDrone:
+    m_watchTimeLabelDescription: Watch Time of ..
+    m_watchTimeInTick: 0
+    m_watchTimeInMilliseconds: 0
+    m_dateTimeInTick: 0
+    m_dateTimeInMilliseconds: 0
+    m_debugListOrderPriority: -1
+    m_debugListCategory:
+    - Default
+    m_useNotification: 1
+  m_onShieldDroneUpdated:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1301909085
 GameObject:
   m_ObjectHideFlags: 0
@@ -888,6 +1024,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1301909086}
   - component: {fileID: 1301909087}
+  - component: {fileID: 1301909088}
   m_Layer: 0
   m_Name: SNA Position
   m_TagString: Untagged
@@ -924,6 +1061,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_sample: {x: 0, y: 0, z: 0}
   m_guid: fbc02ae0-a942-4d88-a936-a834fc59488f
+--- !u!114 &1301909088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301909085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf67f716ec7ac9740aa5967b2434599f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_targetSNAM: {fileID: 1301909087}
+  m_arrayFetched:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  m_useUpdateFetch: 1
 --- !u!1 &1410165589
 GameObject:
   m_ObjectHideFlags: 0
@@ -1089,6 +1251,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1590290547}
   - component: {fileID: 1590290548}
+  - component: {fileID: 1590290550}
+  - component: {fileID: 1590290551}
   m_Layer: 0
   m_Name: SNA Drone Shield
   m_TagString: Untagged
@@ -1130,6 +1294,138 @@ MonoBehaviour:
     m_position: {x: 0, y: 0, z: 0}
     m_rotation: {x: 0, y: 0, z: 0, w: 0}
   m_guid: 8ff3c9a5-26a8-4065-a2ce-75cfbdedf0b0
+--- !u!114 &1590290550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590290546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e06344839aed19c4fac59a46d7e42a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_targetSNAM: {fileID: 1590290548}
+  m_arrayFetched:
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 0
+    m_position: {x: 0, y: 0, z: 0}
+    m_rotation: {x: 0, y: 0, z: 0, w: 0}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 0
+    m_position: {x: 0, y: 0, z: 0}
+    m_rotation: {x: 0, y: 0, z: 0, w: 0}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 0
+    m_position: {x: 0, y: 0, z: 0}
+    m_rotation: {x: 0, y: 0, z: 0, w: 0}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 0
+    m_position: {x: 0, y: 0, z: 0}
+    m_rotation: {x: 0, y: 0, z: 0, w: 0}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 0
+    m_position: {x: 0, y: 0, z: 0}
+    m_rotation: {x: 0, y: 0, z: 0, w: 0}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 0
+    m_position: {x: 0, y: 0, z: 0}
+    m_rotation: {x: 0, y: 0, z: 0, w: 0}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 0
+    m_position: {x: 0, y: 0, z: 0}
+    m_rotation: {x: 0, y: 0, z: 0, w: 0}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 0
+    m_position: {x: 0, y: 0, z: 0}
+    m_rotation: {x: 0, y: 0, z: 0, w: 0}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 0
+    m_position: {x: 0, y: 0, z: 0}
+    m_rotation: {x: 0, y: 0, z: 0, w: 0}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 0
+    m_position: {x: 0, y: 0, z: 0}
+    m_rotation: {x: 0, y: 0, z: 0, w: 0}
+  m_useUpdateFetch: 1
+--- !u!114 &1590290551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590290546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a5fec1870f71074099c82c1e11f13db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_targetSNAM: {fileID: 1590290548}
+  m_arrayToSet:
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 1
+    m_ushortShield: 13317.377
+    m_position: {x: 98.80817, y: 22.096914, z: 132.36}
+    m_rotation: {x: -0.4934604, y: -0.53732073, z: -0.5331559, w: 0.4284017}
+  - m_isDroneConnectedAndInGame: 1
+    m_isInCollision: 1
+    m_ushortShield: 27109.787
+    m_position: {x: 150.16908, y: 88.54028, z: 260.06003}
+    m_rotation: {x: 0.0021442696, y: -0.16055462, z: -0.86336946, w: -0.4783417}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 1
+    m_ushortShield: 46871.1
+    m_position: {x: 73.16684, y: 125.584595, z: 23.652023}
+    m_rotation: {x: -0.2411882, y: -0.79251367, z: 0.4118495, w: 0.3796451}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 1
+    m_ushortShield: 33991.438
+    m_position: {x: 57.35227, y: 213.63326, z: 241.70782}
+    m_rotation: {x: -0.39607692, y: -0.89368016, z: -0.2013423, w: -0.06261142}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 1
+    m_ushortShield: 41867.633
+    m_position: {x: 141.54059, y: 66.90923, z: 211.86493}
+    m_rotation: {x: -0.64543205, y: 0.09645506, z: 0.049214266, w: 0.7561031}
+  - m_isDroneConnectedAndInGame: 1
+    m_isInCollision: 1
+    m_ushortShield: 49513.574
+    m_position: {x: 28.786448, y: 21.590254, z: 91.38914}
+    m_rotation: {x: 0.27217305, y: 0.63979197, z: 0.58960885, w: -0.41103482}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 1
+    m_ushortShield: 3947.0369
+    m_position: {x: 117.371216, y: 227.4757, z: 213.35608}
+    m_rotation: {x: -0.34516948, y: -0.29443258, z: 0.8792438, w: 0.14525102}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 0
+    m_ushortShield: 3929.595
+    m_position: {x: 55.881187, y: 98.76196, z: 148.96921}
+    m_rotation: {x: -0.46613115, y: 0.3584386, z: -0.5686675, w: 0.5752051}
+  - m_isDroneConnectedAndInGame: 0
+    m_isInCollision: 1
+    m_ushortShield: 9921.384
+    m_position: {x: 221.301, y: 244.24934, z: 208.53502}
+    m_rotation: {x: -0.29135352, y: 0.05532898, z: -0.24043983, w: 0.9242514}
+  - m_isDroneConnectedAndInGame: 1
+    m_isInCollision: 0
+    m_ushortShield: 58703.324
+    m_position: {x: 243.79399, y: 173.50092, z: 188.67278}
+    m_rotation: {x: -0.022223473, y: -0.6648634, z: 0.69269407, w: 0.27863532}
+  m_useValidated: 1
+  m_randomizeInputAtUpdate: 1
+  m_numberOfRandomPerUpdate: 2
 --- !u!1 &1690111933
 GameObject:
   m_ObjectHideFlags: 0
@@ -1247,6 +1543,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1766862358}
   - component: {fileID: 1766862359}
+  - component: {fileID: 1766862360}
   m_Layer: 0
   m_Name: SNA Rotation
   m_TagString: Untagged
@@ -1283,6 +1580,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_sample: {x: 0, y: 0, z: 0, w: 0}
   m_guid: e8d853a1-352d-4804-a830-cf0853c47eb4
+--- !u!114 &1766862360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766862357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e42c8e2df9b374bb746713bd038297, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_targetSNAM: {fileID: 1766862359}
+  m_arrayFetched:
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  - {x: 0, y: 0, z: 0, w: 0}
+  m_useUpdateFetch: 1
 --- !u!1 &1928086550
 GameObject:
   m_ObjectHideFlags: 0
@@ -1595,11 +1917,28 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8691119481237634205, guid: b5de4179c16a6e74685fd571883d6b67,
+        type: 3}
+      propertyPath: m_targetSNAM
+      value: 
+      objectReference: {fileID: 9005801954937232803}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5de4179c16a6e74685fd571883d6b67, type: 3}
+--- !u!114 &9005801954937232803 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4316780975515094956, guid: b5de4179c16a6e74685fd571883d6b67,
+    type: 3}
+  m_PrefabInstance: {fileID: 9005801954937232802}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cac19b29495199438b0632e82f2872f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

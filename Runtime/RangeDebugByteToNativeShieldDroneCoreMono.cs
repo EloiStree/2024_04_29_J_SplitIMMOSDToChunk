@@ -1,0 +1,1 @@
+﻿public class RangeDebugByteToNativeShieldDroneCoreMono : RangeDebugReconstructionByteToNativeArrayMono<STRUCT_ShieldDroneCoreInformation> { }

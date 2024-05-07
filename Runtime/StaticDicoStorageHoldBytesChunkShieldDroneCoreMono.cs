@@ -1,0 +1,5 @@
+﻿public class StaticDicoStorageHoldBytesChunkShieldDroneCoreMono :
+    StaticDicoStorageHoldBytesChunkGenericMono<STRUCT_ShieldDroneCoreInformation, StructParserJob_ShieldDroneCoreInformation, StructRandomizerJob_ShieldDroneCoreInformation>
+{
+
+}

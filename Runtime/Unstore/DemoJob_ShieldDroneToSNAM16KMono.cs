@@ -273,7 +273,7 @@ public struct StructParserJob_ShieldDroneCoreInformation : I_HowToParseElementIn
 
             int offsetStart = indexElement * m_elementSize;
 
-
+       
             FloatToArray(drone.m_position.x, out b0, out b1, out b2);
             m_droneState |= (byte)(b0 << 4);
             //bits.m_positionUShortX0 = b1;
@@ -288,13 +288,14 @@ public struct StructParserJob_ShieldDroneCoreInformation : I_HowToParseElementIn
             //bits.m_positionUShortY1 = b2;
             source[offsetStart + 4] = b2;
 
-
-            FloatToArray(drone.m_position.z, out b0, out b1, out b2);
+        
+        FloatToArray(drone.m_position.z, out b0, out b1, out b2);
             m_droneState |= (byte)(b0 << 0);
             //bits.m_positionUShortZ0 = b1;
             source[offsetStart + 5] = b1;
             //bits.m_positionUShortZ1 = b2;
             source[offsetStart + 6] = b2;
+
 
             //bits.m_rotationEulerX = (byte)(((euler.x % 360f) / 360f) * 255f);
             source[offsetStart + 7] = (byte)(((euler.x % 360f) / 360f) * 255f);
@@ -375,6 +376,22 @@ public struct StructParserJob_ShieldDroneCoreInformation : I_HowToParseElementIn
     {
 
         m_randomizer.GetRandom(out element);
+    }
+
+    public void ParseBytesToUnusedValue(NativeArray<byte> source, in int indexElement)
+    {
+        int offsetStart = indexElement * m_elementSize;
+        source[offsetStart ] = 0;
+        source[offsetStart + 1] = 0;
+        source[offsetStart + 2] = 0;
+        source[offsetStart + 3] = 0;
+        source[offsetStart + 4] = 0;
+        source[offsetStart + 5] = 0;
+        source[offsetStart + 6] = 0;
+        source[offsetStart + 7] = 0;
+        source[offsetStart + 8] = 0;
+        source[offsetStart + 9] = 0;
+        source[offsetStart + 10] = 0;
     }
 }
 

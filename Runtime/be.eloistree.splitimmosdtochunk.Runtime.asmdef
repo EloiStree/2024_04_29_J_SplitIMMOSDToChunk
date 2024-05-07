@@ -7,7 +7,8 @@
         "be.eloistree.immoshielddrone",
         "be.eloistree.immogeneric16k",
         "be.eloistree.splitnativebytethroughnetwork",
-        "be.eloistree.splitchunkgenerick16k"
+        "be.eloistree.splitchunkgenerick16k",
+        "be.eloistree.staticdicostoragemono"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
